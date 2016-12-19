@@ -1,9 +1,4 @@
-@font-face {
-  font-family: Jambo;
-  font-style: normal;
-  font-weight: normal;
-  src: url("Jambo.otf") format("opentype");
-}
+
 
 @font-face {
   font-family: Denominator;
@@ -12,18 +7,69 @@
   src: url("Denominator.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: Breeze;
+  font-style: normal;
+  font-weight: normal;
+  src: url("Breeze.ttf") format('truetype');
+}
+
+#background {
+  background-color: #30403D;
+}
+
 #container {
-  background-color: gray;
+  background-color: #ACE5DA;
   margin-top: 20px;
   border-radius: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  color: #30403D;
+}
+
+#wikipedia-link {
+  color: #EEE;
+}
+
+#timeline li {
+  text-align: justify;
+}
+
+#introduction {
+  font-size: 1.5em;
+}
+
+#main-pic-container img {
+  border: 5px solid #5F7F79;
+  padding: 0px;
+  border-radius: 2px;
 }
 
 .row > h1 {
   margin-top: 40px;
+  font-family: Breeze;
+}
+
+
+.row > h3 {
+  margin-top: 40px;
+  font-family: Breeze;
+}
+
+#introduction {
+  font-size: 2em;
 }
 
 .row > div {
   margin-top: 40px;
+  font-family: Denominator;
+}
+
+.row > ul {
+  font-family: Denominator;
+  font-size: 2em;
 }
 
 .row > span {
