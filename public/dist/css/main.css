@@ -14,6 +14,27 @@
   src: url("Breeze.ttf") format('truetype');
 }
 
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+}
+
+#github-container{
+}
+
+#github-container p {
+  font-family: Denominator;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+
 #background {
   background-color: #30403D;
 }
@@ -24,7 +45,7 @@
   border-radius: 16px;
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   padding-bottom: 20px;
   color: #30403D;
 }
